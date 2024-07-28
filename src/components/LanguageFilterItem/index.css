@@ -1,0 +1,25 @@
+.filter-list-item {
+  list-style: none;
+}
+
+.filter-button {
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.active-button {
+  border: 3px solid #0284c7;
+  border-radius: 10px;
+  padding: 2px 25px 2px 25px;
+  color: #0284c7;
+}
+
+@media screen and (orientation: landscape) {
+  .filter-list-item {
+    margin-right: 50px;
+  }
+}

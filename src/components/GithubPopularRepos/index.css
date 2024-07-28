@@ -1,0 +1,64 @@
+.bg-container {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-heading {
+  font-family: Lobster;
+  text-align: center;
+  font-size: 45px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.failure-view-container {
+  margin-top: 80px;
+}
+
+.failure-view-image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.failure-view-image {
+  width: 90%;
+}
+
+.failure-message {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+  color: #1e293b;
+}
+
+.loader-container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (orientation: landscape) {
+  .repo-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+  }
+
+  .inner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
