@@ -59,11 +59,8 @@ class GithubPopularRepos extends Component {
     this.setState({fetchStatus: fetchStatusConstants.inProgress})
     const {activeLanguageFilter} = this.state
     const url = `https://apis.ccbp.in/popular-repos?language=${activeLanguageFilter}`
-    const options = {
-      method: 'GET',
-    }
 
-    const response = await fetch(url, options)
+    const response = await fetch(url)
     const data = await response.json()
 
     if (response.ok === true) {

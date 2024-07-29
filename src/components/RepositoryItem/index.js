@@ -15,6 +15,7 @@ const RepositoryItem = props => {
           alt="stars"
           className="tiny-image"
         />
+        <h1 className="repo-details-heading">{name}</h1>
         <p className="repo-details-paragraph">{starsCount} stars</p>
       </div>
       <div className="repo-details-container">
